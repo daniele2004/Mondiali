@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <!--creazione della navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Mondiali calcistici</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+          <!--questo bottone ti porta-->  <a class="nav-link" href="#stadi">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <img src= "../immagini/ Nome file  " >
+  <!--qui-->  <div id="stadi">
+      <h1>
+        Stadi dei mondiali 
+      </h1>
+      <h3>
+        sottotitolo 
+      </h3>
+    </div>
+    <div id="Anno">
+      <h1>TItolo</h1>
+      <h3>sottotitolo</h3>
+   <!--immagini è un vettore e qui dentro ci saranno tutte le immagini -->    <img *ngFor="let img of immagini " [src]="../immagini/img.imagePath"></img> 
+    </div>
+  </body>
+</html>
